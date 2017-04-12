@@ -1,0 +1,32 @@
+#travelBackground{
+	background: url(travel.jpg);
+	background-repeat:  no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+
+/*html{
+	height: 100%;
+	width: 100%;
+
+}*/
+h1{
+	margin-top: 20%;
+	font-family: Lobster,Cursive;
+	font-size: 60px;
+	color: #EF5350;
+
+	margin-left: 45% 
+}
+button{
+	margin-top: 15px; 
+	margin-left: 60%;
+    font-size: 100px;
+}
+#home {
+
+	font-size: 60px;
+	color: red;
+	text-decoration: none;
+}
