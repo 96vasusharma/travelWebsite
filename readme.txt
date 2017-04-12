@@ -12,7 +12,6 @@ Typically stylesheets in the head and scripts before the closing </body> tag:
     <script src="your-other-scripts.js"></script>
   </body>
 </html>
-
 You'll want files from vendors such as jQuery and Bootstrap to be included before yours. This means that:
 
 CSS: You can override their styles with your own*
