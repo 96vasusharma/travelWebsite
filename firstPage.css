@@ -1,4 +1,4 @@
-#travelBackground{
+body{
 	background: url(travel.jpg);
 	background-repeat:  no-repeat;
 	background-size: cover;
@@ -16,17 +16,23 @@ h1{
 	font-family: Lobster,Cursive;
 	font-size: 60px;
 	color: #EF5350;
-
+	text-shadow: 3px 3px 6px #FF0000;
 	margin-left: 45% 
 }
 button{
 	margin-top: 15px; 
 	margin-left: 60%;
     font-size: 100px;
+    
 }
-#home {
 
-	font-size: 60px;
-	color: red;
+
+a{
+	color:white;
+
+
+}
+a:hover{
 	text-decoration: none;
+	color:orange;
 }
