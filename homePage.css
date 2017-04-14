@@ -1,7 +1,7 @@
 
 
 #homeLogo {
-	display: block;
+	
 	font-size: 60px;
 	color: red;
 	font-family: cursive;
@@ -14,7 +14,7 @@
 }
 
 #themeColor {
-	overflow:hidden;
+	overflow:auto;
 	background-color:#757575;
 }
 
@@ -44,4 +44,31 @@
 	float: right;
 	width: 40%;
 	height: 50%;
+}
+
+.gallery{
+	position: relative;
+	box-shadow: 5px 5px 6px grey;
+	margin: 50px 50px;
+	clear: both;
+	float:right;
+	display: hidden;
+	width: 410px;
+	height: 210px;
+	background-color: lightgreen;
+	border-radius: 15px;
+}
+
+.thumbnails{
+	position: relative;
+	margin: 25px 25px;
+}
+
+#gallery-button{
+	text-decoration: none;
+	position: absolute;
+	bottom: 5px;
+	right: 15px;
+	font-family: impact;
+	font-size: 20px;
 }
