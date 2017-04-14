@@ -1,5 +1,4 @@
 
-
 #homeLogo {
 	
 	font-size: 50px;
@@ -15,7 +14,7 @@
 
 #themeColor {
 	overflow:auto;
-	background-color:#757575;
+	background-color:#bdbdbd;
 }
 
 .nav-buttons{
@@ -77,4 +76,12 @@
 	margin-top: 10px ;
 	height: 450px;
 
+}
+
+blockquote,span{
+	font-family:"Gill Sans MT";
+	font-size:30px;
+}
+span{
+	margin-left: 550px;
 }
