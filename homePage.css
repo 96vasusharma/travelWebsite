@@ -1,7 +1,7 @@
 
 
 #homeLogo {
-
+	display: block;
 	font-size: 60px;
 	color: red;
 	font-family: cursive;
@@ -13,13 +13,35 @@
 	text-shadow: 0px 8px 8px #CFD8DC;
 }
 
-button{
-	float: left;
-	margin: 10px 10px;
+#themeColor {
+	overflow:hidden;
+	background-color:#757575;
+}
+
+.nav-buttons{
+	/*padding: 5px 5px 5px 5px;*/
+	
+}
+
+.nav-buttons button{
+	float: right;
+	/*margin: 10px;*/
+	margin: 6px 6px;
+	padding:6px 6px;
 
 }
 
-#themeColor {
-	overflow:auto;
-	background-color:#757575;
+
+
+.info{
+	margin-top: 20px;
+}
+.info p{
+	font-family: serif;
+	font-size: 40px;
+}
+.info img{
+	float: right;
+	width: 40%;
+	height: 50%;
 }
