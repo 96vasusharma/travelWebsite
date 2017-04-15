@@ -43,19 +43,6 @@ body{
 
 
 
-.info{
-	margin-top: 20px;
-}
-.info p{
-	font-family: serif;
-	font-size: 40px;
-}
-.info img{
-	float: right;
-	width: 40%;
-	height: 50%;
-}
-
 .gallery{
 	position: relative;
 	box-shadow: 5px 5px 6px grey;
