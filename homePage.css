@@ -12,7 +12,7 @@ body{
 	font-size: 50px;
 	color: #FB8C00;
 	text-shadow: 3px 3px 4px #FF0000;
-	font-family: "lucida console",Cursive;
+	font-family: Cursive;
 	text-decoration: none;
 	
 }
@@ -22,17 +22,20 @@ body{
 
 #themeColor {
 	overflow:auto;
-	background-color:#bdbdbd;
+	background-color:#009688;
+	border-radius: 8px;
+	padding-right: 10px;
 }
 
 .nav-buttons{
-	/*padding: 5px 5px 5px 5px;*/
-	
+	margin: 5px 5px 5px 5px;
+	/*display: inline;*/
+	float: right;
+
 }
 
 .nav-buttons button{
-	float: right;
-	/*margin: 10px;*/
+	/*margin: 10px 10px 10px 10px;*/
 	margin: 6px 6px;
 	padding:6px 6px;
 
@@ -61,8 +64,8 @@ body{
 	float:right;
 	display: hidden;
 	width: 410px;
-	height: 210px;
-	background-color: lightgreen;
+	height: 310px;
+	background-color: rgba(144,238,144,0.3);
 	border-radius: 15px;
 }
 
@@ -70,7 +73,11 @@ body{
 	position: relative;
 	margin: 25px 25px;
 }
-
+.thumbnails div img{
+	width: 95px;
+	height: 95px;
+	border-radius: 5px;
+}
 #gallery-button{
 	text-decoration: none;
 	position: absolute;
