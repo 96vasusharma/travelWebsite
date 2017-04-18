@@ -67,7 +67,7 @@ iframe{
 
 /*Navbar*/
 
-#navul{
+.navul{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -77,11 +77,11 @@ iframe{
 #navright{
 	float: right;
 }
-li{
+.navul li{
     float: left;
 }
 
-li a, .dropbutton {
+.navul li a, .dropbutton {
     display: inline-block;
     color: white;
     text-align: center;
@@ -89,13 +89,13 @@ li a, .dropbutton {
     text-decoration: none;
 }
 
-li a:hover, .drop:hover .dropbutton {
+.navul li a:hover, .drop:hover .dropbutton {
     background-color: black;
     color: white;
     text-decoration: none;
 }
 
-li.drop {
+.drop {
     display: inline-block;
 }
 
